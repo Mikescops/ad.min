@@ -1,0 +1,40 @@
+/** GLOBAL CSS */
+
+body {
+  padding-top: 5rem;
+}
+
+/** INDEX CSS */
+
+.contenttype-title{
+	display: flex;
+}
+
+.contenttype-title h3{
+	flex: 1 0;
+}
+
+.contenttype-all-button{
+	margin-top: 5px;
+}
+
+/** LIST CSS */
+
+.list-group-item-flex{
+	display: flex;
+}
+
+.list-group-item-tools{
+	display: block;
+	width: 30px;
+}
+
+.list-group-item-content{
+	flex: 1 0;
+}
+
+/** EDIT CSS */
+
+.content-input{
+	height: 500px;	
+}
