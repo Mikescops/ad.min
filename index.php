@@ -1,7 +1,7 @@
 <?php
   $page_name = "Dashboard";
-  include "_header.php";
-  include "_menu.php";
+  include "partials/_header.php";
+  include "partials/_menu.php";
 ?>
 
 <main role="main" class="container-fluid">
@@ -51,5 +51,5 @@
 </main><!-- /.container -->
 
 <?php
-  include "_footer.php";
+  include "partials/_footer.php";
 ?>
