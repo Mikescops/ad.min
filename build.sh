@@ -10,7 +10,7 @@ mkdir -p "$DEST/"
 # Execute all php files and save them as html
 for f in *.php; 
 do
-	php $f | sed 's/.php/.html/g' > "$DEST/${f/.php/$html}";
+	php $f | sed 's:\(<a.*href=".*\)\.php\(".*</a>\):\1\.html\2:g' > "$DEST/${f/.php/$html}";
 	echo "Processing $f into ${f/.php/$html}..";
 done
 
