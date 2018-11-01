@@ -8,6 +8,13 @@
 
   <div class="row">
     <div class="col-12">
+
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#add-content-modal">
+        Add new content
+      </button>
+
+      <hr>
+
       <div class="list-group">
         <div class="list-group-item list-group-item-action align-items-start list-group-item-flex">
           <div class="list-group-item-tools">
@@ -71,10 +78,15 @@
           </li>
         </ul>
       </nav>
+
     </div>
   </div>
 
 </main><!-- /.container -->
+
+<?php
+  include "partials/_modal.php";
+?>
 
 <?php
   include "partials/_footer.php";
