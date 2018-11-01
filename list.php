@@ -12,7 +12,7 @@
         <div class="list-group-item list-group-item-action align-items-start list-group-item-flex">
           <div class="list-group-item-tools">
             <a href="#" title="View"><i class="fas fa-eye"></i></a>
-            <a href="#" title="Edit"><i class="fas fa-pencil-alt"></i></a>
+            <a href="edit.php" title="Edit"><i class="fas fa-pencil-alt"></i></a>
             <a href="#" title="Delete"><i class="far fa-trash-alt"></i></a>
           </div>
           <div class="list-group-item-content">

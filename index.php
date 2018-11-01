@@ -10,7 +10,7 @@
     <div class="col-sm">
       <div class="contenttype-title">
         <h3>Posts</h3>
-        <a href="edit.php" class="side-text-button"><i class="fas fa-plus-circle"></i> New post</a>
+        <a href="" class="side-text-button" data-toggle="modal" data-target="#add-content-modal"><i class="fas fa-plus-circle"></i> New post</a>
       </div>
       <div class="list-group">
         <a href="#" class="list-group-item list-group-item-action">How to deal with savage chicken ?</a>
@@ -24,7 +24,7 @@
     <div class="col-sm">
       <div class="contenttype-title">
         <h3>Pages</h3>
-        <a href="edit.php" class="side-text-button"><i class="fas fa-plus-circle"></i> New page</a>
+        <a href="" class="side-text-button" data-toggle="modal" data-target="#add-content-modal"><i class="fas fa-plus-circle"></i> New page</a>
       </div>
       <div class="list-group">
         <a href="#" class="list-group-item list-group-item-action">About us</a>
@@ -49,6 +49,10 @@
   </div>
 
 </main><!-- /.container -->
+
+<?php
+  include "partials/_modal.php";
+?>
 
 <?php
   include "partials/_footer.php";
