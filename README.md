@@ -1,5 +1,7 @@
 # Ad.min is a minimal administration template
 
+![Build](https://github.com/Mikescops/ad.min/workflows/CI/badge.svg)
+
 This administration panel is made with Bootstrap 4.
 You can use it as a quick start for your projects.
 
