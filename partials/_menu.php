@@ -13,7 +13,7 @@
         <a class="nav-link" href="list.php"><i class="far fa-newspaper"></i> Posts</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="list.php"><i class="far fa-file-alt"></i> Pages</a>
+        <a class="nav-link" href="users.php"><i class="fas fa-users"></i> Users</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="list.php"><i class="far fa-comment"></i> Comments</a>
